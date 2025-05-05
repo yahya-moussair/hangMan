@@ -42,7 +42,7 @@ The visual design follows the specifications below:
 To run the game locally:
 
    ```bash
-   git clone https://github.com/yourusername/hangman-game.git
+   git clone https://github.com/yahya-moussair/hangman-game.git
    cd hangman-game
    start index.html
 
@@ -54,6 +54,6 @@ To run the game locally:
 hangman-game/
 │
 ├── index.html     # Main HTML file
-├── style.css      # All game styling here
-├── script.js      # Game logic using Vanilla JS
+├── public/css/app.css      # All game styling here
+├── public/js/app.js      # Game logic using Vanilla JS
 └── README.md      # Project documentation
