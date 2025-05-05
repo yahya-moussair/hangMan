@@ -37,14 +37,16 @@ The visual design follows the specifications below:
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
+```plaintext
 hangman-game/
 │
-├── index.html # Main HTML file
-├── public/css/app.css # All game styling here
-├── public/js/app.js # Game logic using Vanilla JS
-└── README.md # Project documentation
+├── index.html     # Main HTML file
+├── style.css      # All game styling here
+├── script.js      # Game logic using Vanilla JS
+└── README.md      # Project documentation
+
 
 
 ---
@@ -56,11 +58,8 @@ To run the game locally:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/yourusername/hangman-game.git
-
-
-
-
-
+   cd hangman-game
+   start index.html
 
 
 Let me know if you'd like me to generate the initial `index.html`, `app.css`, and `app.js` files based on this README.
