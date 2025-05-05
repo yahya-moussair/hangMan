@@ -37,20 +37,6 @@ The visual design follows the specifications below:
 
 ---
 
-## 📁 Project Structure
-
-```plaintext
-hangman-game/
-│
-├── index.html     # Main HTML file
-├── style.css      # All game styling here
-├── script.js      # Game logic using Vanilla JS
-└── README.md      # Project documentation
-
-
-
----
-
 ## 🚀 Getting Started
 
 To run the game locally:
@@ -61,5 +47,14 @@ To run the game locally:
    cd hangman-game
    start index.html
 
+--- 
 
-Let me know if you'd like me to generate the initial `index.html`, `app.css`, and `app.js` files based on this README.
+## 📁 Project Structure
+
+```plaintext
+hangman-game/
+│
+├── index.html     # Main HTML file
+├── style.css      # All game styling here
+├── script.js      # Game logic using Vanilla JS
+└── README.md      # Project documentation
