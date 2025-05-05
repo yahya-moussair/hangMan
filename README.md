@@ -41,7 +41,6 @@ The visual design follows the specifications below:
 
 To run the game locally:
 
-1. **Clone the repository**:
    ```bash
    git clone https://github.com/yourusername/hangman-game.git
    cd hangman-game

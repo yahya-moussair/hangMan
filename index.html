@@ -9,11 +9,66 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="./public/css/app.css">
 </head>
 
 <body>
-    
+    <h1>Welcome <span class="span-text">Hang Man game</span><span class="dead-icons"><i
+                class="fa-solid fa-book-skull"></i></span></h1>
+    <div class="container">
+        <div class="guess-section">
+            <div class="hint-div">
+                <h2>Hint</h2>
+                <p class="hint-text"></p>
+            </div>
+            <input type="text" placeholder="Enter a word " class="display">
+            <div class="keyboard-div">
+                <div class="char-row">
+                    <button>A</button>
+                    <button>B</button>
+                    <button>C</button>
+                    <button>D</button>
+                    <button>E</button>
+                    <button>F</button>
+                </div>
+                <div class="char-row">
+                    <button>G</button>
+                    <button>H</button>
+                    <button>I</button>
+                    <button>J</button>
+                    <button>K</button>
+                    <button>L</button>
+                </div>
+                <div class="char-row">
+                    <button>M</button>
+                    <button>N</button>
+                    <button>O</button>
+                    <button>P</button>
+                    <button>Q</button>
+                    <button>R</button>
+                </div>
+                <div class="char-row">
+                    <button>S</button>
+                    <button>T</button>
+                    <button>V</button>
+                    <button>W</button>
+                    <button>X</button>
+                    <button>Y</button>
+                </div>
+                <div class="char-row">
+                    <button>Z</button>
+                    <button class="delete-char"><span><i class="fa-solid fa-delete-left"></i></span></button>
+                    <button class="clear-display">Clear</button>
+                    <button class="restart-btn">Restart</button>
+                    <button class="submit-btn">Submit</button>
+                </div>
+            </div>
+        </div>
+        <div class="hang-section">
+            <img src="./public/images/0.jpg" class="hang-img" alt="">
+        </div>
+    </div>
     <script src="./public/js/app.js"></script>
 </body>
 

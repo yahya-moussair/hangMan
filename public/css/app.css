@@ -2,4 +2,108 @@
         margin: 0;
         padding: 0;
         font-family: 'Roboto' , sans-serif;
+        user-select: none;
+}
+body{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding-top: 8vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+h1{
+        font-size: 3rem;
+        font-style: italic;
+        display: flex;
+        gap: 1vw;
+}
+h1  .span-text{
+        color: red;
+        text-decoration: line-through;
+}
+h1 .dead-icons{
+        color: red;
+}
+.container{
+        background-color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        width: 80%;
+        height: max-content;
+        padding: 2vh 1.3vw;
+        display: flex;
+        gap: 2vw;
+        border-radius: 10px;
+}
+.guess-section {
+        width: 65%;
+        height: calc(55vh - 4vh);
+        border-radius: 10px;
+        border: 2px black solid;
+        padding: 1.6vh 1.2vw;
+        display: flex;
+        flex-direction: column;
+        gap: 3vh;
+        align-items: center;
+        color: black;
+}
+.hint-div{
+        display: flex;
+        flex-direction: column;
+        gap: 1vh;
+}
+.hint-div h2{
+        font-size: 2rem;
+}
+.hint-div p {
+        font-size: 1.2rem;
+}
+.guess-section input{
+        width: 40%;
+        padding: 1.3vh 0.5vw;
+        font-size: 1.3rem;
+        border-radius: 10px;
+        border: 1px solid black;
+        text-align: center;
+}
+.keyboard-div{
+        display: flex;
+        flex-direction: column;
+        gap: 0.7vh;
+        align-items: center;
+        padding: 2vh 1vw;
+        border-radius: 10px;
+}
+.keyboard-div .char-row{
+        display: flex;
+        gap: 0.7vw;
+}
+button{
+        width: 5vw;
+        height: 5vh;
+        font-size: 1.3rem;
+        background-color: gray;
+        border-radius: 10px;
+        border: none;
+        color: white;
+        transition: 0.5s;
+}
+button:hover{
+        background-color: black;
+        color: white;
+        cursor: pointer;
+}
+.hang-section{
+        width: 35%;
+        background-color: black;
+        height: 55vh;
+        border-radius: 10px;
+}
+.hang-section img{
+        width: 100%;
+        height: 100%;
 }
